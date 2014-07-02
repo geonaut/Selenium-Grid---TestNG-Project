@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test runs" verbose="1" parallel="tests" thread-count="3">
+ 
+<test name="T_01">
+    <classes>
+        <class name="testNG.parallel.GoogleTest1" ></class>
+    </classes>
+</test>
+ 
+<!-- <test name="T_02"> -->
+<!--     <classes> -->
+<!--         <class name="testNG.parallel.GoogleTest2" ></class> -->
+<!--     </classes> -->
+<!-- </test> -->
+ 
+<!-- <test name="T_03"> -->
+<!--     <classes> -->
+<!--         <class name="testNG.parallel.CreateNewApplicantOnlineInputOwn" ></class> -->
+<!--     </classes> -->
+<!-- </test> -->
+ 
+<!-- <test name="T_04"> -->
+<!--     <classes> -->
+<!--         <class name="testNG.parallel.CreateNewApplicantOnlinePresent" ></class> -->
+<!--     </classes> -->
+<!-- </test> -->
+ 
+<!-- <test name="T_05"> -->
+<!--     <classes> -->
+<!--         <class name="testNG.parallel.CreateNewApplicantPaper" ></class> -->
+<!--     </classes> -->
+<!-- </test> -->
+
+<!-- <test name="T_06"> -->
+<!--     <classes> -->
+<!--         <class name="testNG.parallel.LoginScreenTest" ></class> -->
+<!--     </classes> -->
+<!-- </test> -->
+
+<!-- <test name="T_07"> -->
+<!--     <classes> -->
+<!--         <class name="testNG.parallel.RunSuperuserReports" ></class> -->
+<!--     </classes> -->
+<!-- </test> -->
+
+<!-- <test name="T_08"> -->
+<!--     <classes> -->
+<!--         <class name="testNG.parallel.ViewEditDocumentChecker" ></class> -->
+<!--     </classes> -->
+<!-- </test> -->
+
+<!-- <test name="T_09"> -->
+<!--     <classes> -->
+<!--         <class name="testNG.parallel.CreateNewApplicantOnlinePresent" ></class> -->
+<!--     </classes> -->
+<!-- </test> -->
+
+</suite>
