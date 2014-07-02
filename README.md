@@ -11,6 +11,7 @@ These files can be used for QA testing of web applications. This is a skeleton s
 * Eclipse IDE with TestNG plugin installed
 * Firefox with Selenium IDE plugin
 * Selenium java client library (available for use by Java)
+* A copy of the latest Selenium standalone JAR. 2.41.0 at the time of writing.
 * Selenium standalone server running in node mode, with appropriate webdrivers for Chrome / IE. This can be on a different machine. An example command:
 ``` 
 java -jar selenium-server-standalone-2.41.0.jar -role node -hub  http://<HUB IP>:4444/grid/register -Dwebdriver.chrome.driver=chromedriver.exe -Dwebdriver.ie.driver=IEDriverServer.exe
@@ -31,6 +32,7 @@ java -jar selenium-server-standalone-2.41.0.jar -role hub
 * In the root folder of the project, create the two files "TestFiles.xml" and testng.xml
 * Make sure the correct test is referenced in TestFiles.xml
 * Run testng as TestNG (Right click, run as...)
+* Check the test output for warnings / success reports
 
 ## Creating Custom Tests
 
